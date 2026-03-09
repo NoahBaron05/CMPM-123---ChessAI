@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Win32-ninja"
+	BuildStamp="20260216-1938-Experimental"
+	Name="DESKTOP-B5FD08M"
+	Generator="ctest-4.2.1"
+	CompilerName="C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/VC/Tools/MSVC/14.50.35717/bin/Hostx64/x64/cl.exe"
+	CompilerVersion="19.50.35722.0"
+	OSName="Windows"
+	Hostname="DESKTOP-B5FD08M"
+	OSRelease="10.0.19045"
+	OSVersion="Windows 10"
+	OSPlatform="AMD64"
+	Is64Bits="1"
+	VendorString="AuthenticAMD"
+	VendorID="Advanced Micro Devices"
+	FamilyID="15"
+	ModelID="1"
+	ModelName="AMD Ryzen 5 3600 6-Core Processor"
+	ProcessorCacheSize="64"
+	NumberOfLogicalCPU="12"
+	NumberOfPhysicalCPU="6"
+	TotalVirtualMemory="23478"
+	TotalPhysicalMemory="16310"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="3593"
+	>
+	<Testing>
+		<StartDateTime>Mar 09 13:08 Pacific Daylight Time</StartDateTime>
+		<StartTestTime>1773086925</StartTestTime>
+		<TestList/>
+		<EndDateTime>Mar 09 13:08 Pacific Daylight Time</EndDateTime>
+		<EndTestTime>1773086925</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>
