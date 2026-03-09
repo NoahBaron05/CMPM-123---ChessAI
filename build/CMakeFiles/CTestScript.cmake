@@ -5,8 +5,8 @@
 cmake_minimum_required(VERSION 4.2.1)
 
 # CTest Start Step
-set(CTEST_SOURCE_DIRECTORY "C:/Users/noaht/OneDrive/Documents/GitHub/CMPM-123---Chess")
-set(CTEST_BINARY_DIRECTORY "C:/Users/noaht/OneDrive/Documents/GitHub/CMPM-123---Chess/build")
+set(CTEST_SOURCE_DIRECTORY "C:/Users/noaht/OneDrive/Documents/GitHub/CMPM-123---ChessAI")
+set(CTEST_BINARY_DIRECTORY "C:/Users/noaht/OneDrive/Documents/GitHub/CMPM-123---ChessAI/build")
 
 # CTest Update Step
 set(CTEST_UPDATE_COMMAND "C:/Program Files/Git/cmd/git.exe")

@@ -40,6 +40,7 @@ events:
       - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/Tools/"
+      - "C:/Users/noaht/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -163,6 +164,15 @@ events:
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/Tools/samu.com"
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/Tools/samu.exe"
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/Tools/samu"
+      - "C:/Users/noaht/AppData/Local/Programs/Microsoft VS Code/ninja-build.com"
+      - "C:/Users/noaht/AppData/Local/Programs/Microsoft VS Code/ninja-build.exe"
+      - "C:/Users/noaht/AppData/Local/Programs/Microsoft VS Code/ninja-build"
+      - "C:/Users/noaht/AppData/Local/Programs/Microsoft VS Code/ninja.com"
+      - "C:/Users/noaht/AppData/Local/Programs/Microsoft VS Code/ninja.exe"
+      - "C:/Users/noaht/AppData/Local/Programs/Microsoft VS Code/ninja"
+      - "C:/Users/noaht/AppData/Local/Programs/Microsoft VS Code/samu.com"
+      - "C:/Users/noaht/AppData/Local/Programs/Microsoft VS Code/samu.exe"
+      - "C:/Users/noaht/AppData/Local/Programs/Microsoft VS Code/samu"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/ninja-build.com"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/ninja-build.exe"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/ninja-build"
@@ -361,6 +371,7 @@ events:
         - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\Common7\\IDE\\"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\Common7\\Tools\\"
+        - "C:\\Users\\noaht\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
@@ -415,6 +426,7 @@ events:
       - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/Tools/"
+      - "C:/Users/noaht/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -454,6 +466,7 @@ events:
         - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\Common7\\IDE\\"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\Common7\\Tools\\"
+        - "C:\\Users\\noaht\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
@@ -515,6 +528,7 @@ events:
         - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\Common7\\IDE\\"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\Common7\\Tools\\"
+        - "C:\\Users\\noaht\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
@@ -577,7 +591,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.obj"
       
       The C compiler identification is MSVC, found in:
-        C:/Users/noaht/OneDrive/Documents/GitHub/CMPM-123---Chess/build/CMakeFiles/4.2.1/CompilerIdC/CMakeCCompilerId.exe
+        C:/Users/noaht/OneDrive/Documents/GitHub/CMPM-123---ChessAI/build/CMakeFiles/4.2.1/CompilerIdC/CMakeCCompilerId.exe
       
   -
     kind: "message-v1"
@@ -589,7 +603,7 @@ events:
     message: |
       Detecting C compiler /showIncludes prefix:
         main.c
-        Note: including file: C:\\Users\\noaht\\OneDrive\\Documents\\GitHub\\CMPM-123---Chess\\build\\CMakeFiles\\ShowIncludes\\foo.h
+        Note: including file: C:\\Users\\noaht\\OneDrive\\Documents\\GitHub\\CMPM-123---ChessAI\\build\\CMakeFiles\\ShowIncludes\\foo.h
         
       Found prefix "Note: including file: "
   -
@@ -625,6 +639,7 @@ events:
       - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/Tools/"
+      - "C:/Users/noaht/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -664,6 +679,7 @@ events:
         - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\Common7\\IDE\\"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\Common7\\Tools\\"
+        - "C:\\Users\\noaht\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
@@ -720,6 +736,7 @@ events:
       - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/Tools/"
+      - "C:/Users/noaht/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -777,6 +794,9 @@ events:
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/Tools/lld-link.com"
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/Tools/lld-link.exe"
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/Tools/lld-link"
+      - "C:/Users/noaht/AppData/Local/Programs/Microsoft VS Code/lld-link.com"
+      - "C:/Users/noaht/AppData/Local/Programs/Microsoft VS Code/lld-link.exe"
+      - "C:/Users/noaht/AppData/Local/Programs/Microsoft VS Code/lld-link"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.com"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.exe"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link"
@@ -860,6 +880,7 @@ events:
         - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\Common7\\IDE\\"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\Common7\\Tools\\"
+        - "C:\\Users\\noaht\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
@@ -914,6 +935,7 @@ events:
       - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/Tools/"
+      - "C:/Users/noaht/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -953,6 +975,7 @@ events:
         - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\Common7\\IDE\\"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\Common7\\Tools\\"
+        - "C:\\Users\\noaht\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
@@ -1007,6 +1030,7 @@ events:
       - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/Tools/"
+      - "C:/Users/noaht/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -1061,6 +1085,7 @@ events:
         - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\Common7\\IDE\\"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\Common7\\Tools\\"
+        - "C:\\Users\\noaht\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
@@ -1115,6 +1140,7 @@ events:
       - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/Tools/"
+      - "C:/Users/noaht/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -1154,6 +1180,7 @@ events:
         - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\Common7\\IDE\\"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\Common7\\Tools\\"
+        - "C:\\Users\\noaht\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
@@ -1214,6 +1241,7 @@ events:
         - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\Common7\\IDE\\"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\Common7\\Tools\\"
+        - "C:\\Users\\noaht\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
@@ -1275,6 +1303,7 @@ events:
         - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\Common7\\IDE\\"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\Common7\\Tools\\"
+        - "C:\\Users\\noaht\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
@@ -1337,7 +1366,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.obj"
       
       The CXX compiler identification is MSVC, found in:
-        C:/Users/noaht/OneDrive/Documents/GitHub/CMPM-123---Chess/build/CMakeFiles/4.2.1/CompilerIdCXX/CMakeCXXCompilerId.exe
+        C:/Users/noaht/OneDrive/Documents/GitHub/CMPM-123---ChessAI/build/CMakeFiles/4.2.1/CompilerIdCXX/CMakeCXXCompilerId.exe
       
   -
     kind: "message-v1"
@@ -1349,7 +1378,7 @@ events:
     message: |
       Detecting CXX compiler /showIncludes prefix:
         main.c
-        Note: including file: C:\\Users\\noaht\\OneDrive\\Documents\\GitHub\\CMPM-123---Chess\\build\\CMakeFiles\\ShowIncludes\\foo.h
+        Note: including file: C:\\Users\\noaht\\OneDrive\\Documents\\GitHub\\CMPM-123---ChessAI\\build\\CMakeFiles\\ShowIncludes\\foo.h
         
       Found prefix "Note: including file: "
   -
@@ -1385,6 +1414,7 @@ events:
       - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/Tools/"
+      - "C:/Users/noaht/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -1442,6 +1472,9 @@ events:
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/Tools/lld-link.com"
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/Tools/lld-link.exe"
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/Tools/lld-link"
+      - "C:/Users/noaht/AppData/Local/Programs/Microsoft VS Code/lld-link.com"
+      - "C:/Users/noaht/AppData/Local/Programs/Microsoft VS Code/lld-link.exe"
+      - "C:/Users/noaht/AppData/Local/Programs/Microsoft VS Code/lld-link"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.com"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link.exe"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/lld-link"
@@ -1525,6 +1558,7 @@ events:
         - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\Common7\\IDE\\"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\Common7\\Tools\\"
+        - "C:\\Users\\noaht\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
@@ -1582,6 +1616,7 @@ events:
       - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/Tools/"
+      - "C:/Users/noaht/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -1648,6 +1683,7 @@ events:
         - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\Common7\\IDE\\"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\Common7\\Tools\\"
+        - "C:\\Users\\noaht\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
@@ -1686,8 +1722,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/noaht/OneDrive/Documents/GitHub/CMPM-123---Chess/build/CMakeFiles/CMakeScratch/TryCompile-k9uoew"
-      binary: "C:/Users/noaht/OneDrive/Documents/GitHub/CMPM-123---Chess/build/CMakeFiles/CMakeScratch/TryCompile-k9uoew"
+      source: "C:/Users/noaht/OneDrive/Documents/GitHub/CMPM-123---ChessAI/build/CMakeFiles/CMakeScratch/TryCompile-0t2adm"
+      binary: "C:/Users/noaht/OneDrive/Documents/GitHub/CMPM-123---ChessAI/build/CMakeFiles/CMakeScratch/TryCompile-0t2adm"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -1696,11 +1732,11 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/noaht/OneDrive/Documents/GitHub/CMPM-123---Chess/build/CMakeFiles/CMakeScratch/TryCompile-k9uoew'
+        Change Dir: 'C:/Users/noaht/OneDrive/Documents/GitHub/CMPM-123---ChessAI/build/CMakeFiles/CMakeScratch/TryCompile-0t2adm'
         
-        Run Build Command(s): C:/PROGRA~2/MICROS~3/18/BUILDT~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v cmTC_3f2d4
-        [1/2] C:\\PROGRA~2\\MICROS~3\\18\\BUILDT~1\\VC\\Tools\\MSVC\\1450~1.357\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_MBCS  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_3f2d4.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_3f2d4.dir\\ /FS -c "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1950 --intdir=CMakeFiles\\cmTC_3f2d4.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~3\\18\\BUILDT~1\\VC\\Tools\\MSVC\\1450~1.357\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_3f2d4.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_3f2d4.exe /implib:cmTC_3f2d4.lib /pdb:cmTC_3f2d4.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): C:/PROGRA~2/MICROS~3/18/BUILDT~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v cmTC_c03d4
+        [1/2] C:\\PROGRA~2\\MICROS~3\\18\\BUILDT~1\\VC\\Tools\\MSVC\\1450~1.357\\bin\\Hostx64\\x64\\cl.exe  /nologo -D_MBCS  /DWIN32 /D_WINDOWS /W3  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_c03d4.dir\\CMakeCCompilerABI.c.obj /FdCMakeFiles\\cmTC_c03d4.dir\\ /FS -c "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCCompilerABI.c"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1950 --intdir=CMakeFiles\\cmTC_c03d4.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~3\\18\\BUILDT~1\\VC\\Tools\\MSVC\\1450~1.357\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_c03d4.dir\\CMakeCCompilerABI.c.obj  /out:cmTC_c03d4.exe /implib:cmTC_c03d4.lib /pdb:cmTC_c03d4.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
@@ -1740,8 +1776,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/noaht/OneDrive/Documents/GitHub/CMPM-123---Chess/build/CMakeFiles/CMakeScratch/TryCompile-jw3mbl"
-      binary: "C:/Users/noaht/OneDrive/Documents/GitHub/CMPM-123---Chess/build/CMakeFiles/CMakeScratch/TryCompile-jw3mbl"
+      source: "C:/Users/noaht/OneDrive/Documents/GitHub/CMPM-123---ChessAI/build/CMakeFiles/CMakeScratch/TryCompile-zvs1gi"
+      binary: "C:/Users/noaht/OneDrive/Documents/GitHub/CMPM-123---ChessAI/build/CMakeFiles/CMakeScratch/TryCompile-zvs1gi"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -1751,11 +1787,11 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/noaht/OneDrive/Documents/GitHub/CMPM-123---Chess/build/CMakeFiles/CMakeScratch/TryCompile-jw3mbl'
+        Change Dir: 'C:/Users/noaht/OneDrive/Documents/GitHub/CMPM-123---ChessAI/build/CMakeFiles/CMakeScratch/TryCompile-zvs1gi'
         
-        Run Build Command(s): C:/PROGRA~2/MICROS~3/18/BUILDT~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v cmTC_50f0e
-        [1/2] C:\\PROGRA~2\\MICROS~3\\18\\BUILDT~1\\VC\\Tools\\MSVC\\1450~1.357\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -D_MBCS  /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_50f0e.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_50f0e.dir\\ /FS -c "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
-        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1950 --intdir=CMakeFiles\\cmTC_50f0e.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~3\\18\\BUILDT~1\\VC\\Tools\\MSVC\\1450~1.357\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_50f0e.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_50f0e.exe /implib:cmTC_50f0e.lib /pdb:cmTC_50f0e.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
+        Run Build Command(s): C:/PROGRA~2/MICROS~3/18/BUILDT~1/Common7/IDE/COMMON~1/MICROS~1/CMake/Ninja/ninja.exe -v cmTC_1f689
+        [1/2] C:\\PROGRA~2\\MICROS~3\\18\\BUILDT~1\\VC\\Tools\\MSVC\\1450~1.357\\bin\\Hostx64\\x64\\cl.exe  /nologo /TP -D_MBCS  /DWIN32 /D_WINDOWS /W3 /GR /EHsc  /MDd /Zi /Ob0 /Od /RTC1 /showIncludes /FoCMakeFiles\\cmTC_1f689.dir\\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\\cmTC_1f689.dir\\ /FS -c "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+        [2/2] C:\\WINDOWS\\system32\\cmd.exe /C "cd . && "C:\\Program Files\\CMake\\bin\\cmake.exe" -E vs_link_exe --msvc-ver=1950 --intdir=CMakeFiles\\cmTC_1f689.dir --rc=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\rc.exe --mt=C:\\PROGRA~2\\WI3CF2~1\\10\\bin\\100261~1.0\\x64\\mt.exe --manifests  -- C:\\PROGRA~2\\MICROS~3\\18\\BUILDT~1\\VC\\Tools\\MSVC\\1450~1.357\\bin\\Hostx64\\x64\\link.exe /nologo CMakeFiles\\cmTC_1f689.dir\\CMakeCXXCompilerABI.cpp.obj  /out:cmTC_1f689.exe /implib:cmTC_1f689.lib /pdb:cmTC_1f689.pdb /version:0.0 /machine:x64  /debug /INCREMENTAL /subsystem:console  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib && cd ."
         
       exitCode: 0
   -
@@ -1816,6 +1852,7 @@ events:
       - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/Tools/"
+      - "C:/Users/noaht/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -1885,6 +1922,9 @@ events:
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/Tools/git.com"
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/Tools/git.exe"
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/Tools/git"
+      - "C:/Users/noaht/AppData/Local/Programs/Microsoft VS Code/git.com"
+      - "C:/Users/noaht/AppData/Local/Programs/Microsoft VS Code/git.exe"
+      - "C:/Users/noaht/AppData/Local/Programs/Microsoft VS Code/git"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/git.com"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/git.exe"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/git"
@@ -1939,6 +1979,7 @@ events:
         - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\Common7\\IDE\\"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\Common7\\Tools\\"
+        - "C:\\Users\\noaht\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
@@ -2003,6 +2044,7 @@ events:
       - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/Tools/"
+      - "C:/Users/noaht/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -2073,6 +2115,9 @@ events:
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/Tools/purify.com"
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/Tools/purify.exe"
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/Tools/purify"
+      - "C:/Users/noaht/AppData/Local/Programs/Microsoft VS Code/purify.com"
+      - "C:/Users/noaht/AppData/Local/Programs/Microsoft VS Code/purify.exe"
+      - "C:/Users/noaht/AppData/Local/Programs/Microsoft VS Code/purify"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/purify.com"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/purify.exe"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/purify"
@@ -2214,6 +2259,9 @@ events:
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/Tools/valgrind.com"
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/Tools/valgrind.exe"
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/Tools/valgrind"
+      - "C:/Users/noaht/AppData/Local/Programs/Microsoft VS Code/valgrind.com"
+      - "C:/Users/noaht/AppData/Local/Programs/Microsoft VS Code/valgrind.exe"
+      - "C:/Users/noaht/AppData/Local/Programs/Microsoft VS Code/valgrind"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/valgrind.com"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/valgrind.exe"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/valgrind"
@@ -2355,6 +2403,9 @@ events:
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/Tools/boundscheck.com"
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/Tools/boundscheck.exe"
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/Tools/boundscheck"
+      - "C:/Users/noaht/AppData/Local/Programs/Microsoft VS Code/boundscheck.com"
+      - "C:/Users/noaht/AppData/Local/Programs/Microsoft VS Code/boundscheck.exe"
+      - "C:/Users/noaht/AppData/Local/Programs/Microsoft VS Code/boundscheck"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/boundscheck.com"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/boundscheck.exe"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/boundscheck"
@@ -2496,6 +2547,9 @@ events:
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/Tools/drmemory.com"
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/Tools/drmemory.exe"
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/Tools/drmemory"
+      - "C:/Users/noaht/AppData/Local/Programs/Microsoft VS Code/drmemory.com"
+      - "C:/Users/noaht/AppData/Local/Programs/Microsoft VS Code/drmemory.exe"
+      - "C:/Users/noaht/AppData/Local/Programs/Microsoft VS Code/drmemory"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/drmemory.com"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/drmemory.exe"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/drmemory"
@@ -2637,6 +2691,9 @@ events:
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/Tools/cuda-memcheck.com"
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/Tools/cuda-memcheck.exe"
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/Tools/cuda-memcheck"
+      - "C:/Users/noaht/AppData/Local/Programs/Microsoft VS Code/cuda-memcheck.com"
+      - "C:/Users/noaht/AppData/Local/Programs/Microsoft VS Code/cuda-memcheck.exe"
+      - "C:/Users/noaht/AppData/Local/Programs/Microsoft VS Code/cuda-memcheck"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/cuda-memcheck.com"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/cuda-memcheck.exe"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/cuda-memcheck"
@@ -2778,6 +2835,9 @@ events:
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/Tools/compute-sanitizer.com"
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/Tools/compute-sanitizer.exe"
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/Tools/compute-sanitizer"
+      - "C:/Users/noaht/AppData/Local/Programs/Microsoft VS Code/compute-sanitizer.com"
+      - "C:/Users/noaht/AppData/Local/Programs/Microsoft VS Code/compute-sanitizer.exe"
+      - "C:/Users/noaht/AppData/Local/Programs/Microsoft VS Code/compute-sanitizer"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/compute-sanitizer.com"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/compute-sanitizer.exe"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/compute-sanitizer"
@@ -2900,6 +2960,7 @@ events:
         - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\Common7\\IDE\\"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\Common7\\Tools\\"
+        - "C:\\Users\\noaht\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
         - "C:\\Windows"
@@ -2959,6 +3020,7 @@ events:
       - "C:/Windows/Microsoft.NET/Framework64/v4.0.30319/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/IDE/"
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/Tools/"
+      - "C:/Users/noaht/AppData/Local/Programs/Microsoft VS Code/"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/"
       - "C:/Windows/System32/"
       - "C:/Windows/"
@@ -3028,6 +3090,9 @@ events:
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/Tools/gcov.com"
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/Tools/gcov.exe"
       - "C:/Program Files (x86)/Microsoft Visual Studio/18/BuildTools/Common7/Tools/gcov"
+      - "C:/Users/noaht/AppData/Local/Programs/Microsoft VS Code/gcov.com"
+      - "C:/Users/noaht/AppData/Local/Programs/Microsoft VS Code/gcov.exe"
+      - "C:/Users/noaht/AppData/Local/Programs/Microsoft VS Code/gcov"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/gcov.com"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/gcov.exe"
       - "C:/Program Files/Common Files/Oracle/Java/javapath/gcov"
@@ -3147,6 +3212,7 @@ events:
         - "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\Common7\\IDE\\"
         - "C:\\Program Files (x86)\\Microsoft Visual Studio\\18\\BuildTools\\Common7\\Tools\\"
+        - "C:\\Users\\noaht\\AppData\\Local\\Programs\\Microsoft VS Code"
         - "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\Windows\\system32"
         - "C:\\Windows"

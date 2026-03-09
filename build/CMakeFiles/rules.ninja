@@ -76,7 +76,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---Chess -BC:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---Chess\build
+  command = "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---ChessAI -BC:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---ChessAI\build
   description = Re-running CMake...
   generator = 1
 

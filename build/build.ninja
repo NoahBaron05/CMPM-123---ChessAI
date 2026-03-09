@@ -39,7 +39,7 @@ include CMakeFiles\rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = C$:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---Chess\build\
+cmake_ninja_workdir = C$:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---ChessAI\build\
 
 #############################################
 # Utility command for Experimental
@@ -217,7 +217,7 @@ build ContinuousSubmit: phony CMakeFiles\ContinuousSubmit
 
 build cmake_object_order_depends_target_demo: phony || .
 
-build CMakeFiles\demo.dir\Application.cpp.obj: CXX_COMPILER__demo_unscanned_Debug C$:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---Chess\Application.cpp || cmake_object_order_depends_target_demo
+build CMakeFiles\demo.dir\Application.cpp.obj: CXX_COMPILER__demo_unscanned_Debug C$:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---ChessAI\Application.cpp || cmake_object_order_depends_target_demo
   CONFIG = Debug
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++20
   OBJECT_DIR = CMakeFiles\demo.dir
@@ -226,7 +226,7 @@ build CMakeFiles\demo.dir\Application.cpp.obj: CXX_COMPILER__demo_unscanned_Debu
   TARGET_PDB = demo.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\demo.dir
 
-build CMakeFiles\demo.dir\imgui\imgui_demo.cpp.obj: CXX_COMPILER__demo_unscanned_Debug C$:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---Chess\imgui\imgui_demo.cpp || cmake_object_order_depends_target_demo
+build CMakeFiles\demo.dir\imgui\imgui_demo.cpp.obj: CXX_COMPILER__demo_unscanned_Debug C$:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---ChessAI\imgui\imgui_demo.cpp || cmake_object_order_depends_target_demo
   CONFIG = Debug
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++20
   OBJECT_DIR = CMakeFiles\demo.dir
@@ -235,7 +235,7 @@ build CMakeFiles\demo.dir\imgui\imgui_demo.cpp.obj: CXX_COMPILER__demo_unscanned
   TARGET_PDB = demo.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\demo.dir
 
-build CMakeFiles\demo.dir\imgui\imgui_draw.cpp.obj: CXX_COMPILER__demo_unscanned_Debug C$:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---Chess\imgui\imgui_draw.cpp || cmake_object_order_depends_target_demo
+build CMakeFiles\demo.dir\imgui\imgui_draw.cpp.obj: CXX_COMPILER__demo_unscanned_Debug C$:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---ChessAI\imgui\imgui_draw.cpp || cmake_object_order_depends_target_demo
   CONFIG = Debug
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++20
   OBJECT_DIR = CMakeFiles\demo.dir
@@ -244,7 +244,7 @@ build CMakeFiles\demo.dir\imgui\imgui_draw.cpp.obj: CXX_COMPILER__demo_unscanned
   TARGET_PDB = demo.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\demo.dir
 
-build CMakeFiles\demo.dir\imgui\imgui_tables.cpp.obj: CXX_COMPILER__demo_unscanned_Debug C$:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---Chess\imgui\imgui_tables.cpp || cmake_object_order_depends_target_demo
+build CMakeFiles\demo.dir\imgui\imgui_tables.cpp.obj: CXX_COMPILER__demo_unscanned_Debug C$:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---ChessAI\imgui\imgui_tables.cpp || cmake_object_order_depends_target_demo
   CONFIG = Debug
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++20
   OBJECT_DIR = CMakeFiles\demo.dir
@@ -253,7 +253,7 @@ build CMakeFiles\demo.dir\imgui\imgui_tables.cpp.obj: CXX_COMPILER__demo_unscann
   TARGET_PDB = demo.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\demo.dir
 
-build CMakeFiles\demo.dir\imgui\imgui_widgets.cpp.obj: CXX_COMPILER__demo_unscanned_Debug C$:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---Chess\imgui\imgui_widgets.cpp || cmake_object_order_depends_target_demo
+build CMakeFiles\demo.dir\imgui\imgui_widgets.cpp.obj: CXX_COMPILER__demo_unscanned_Debug C$:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---ChessAI\imgui\imgui_widgets.cpp || cmake_object_order_depends_target_demo
   CONFIG = Debug
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++20
   OBJECT_DIR = CMakeFiles\demo.dir
@@ -262,7 +262,7 @@ build CMakeFiles\demo.dir\imgui\imgui_widgets.cpp.obj: CXX_COMPILER__demo_unscan
   TARGET_PDB = demo.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\demo.dir
 
-build CMakeFiles\demo.dir\imgui\imgui.cpp.obj: CXX_COMPILER__demo_unscanned_Debug C$:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---Chess\imgui\imgui.cpp || cmake_object_order_depends_target_demo
+build CMakeFiles\demo.dir\imgui\imgui.cpp.obj: CXX_COMPILER__demo_unscanned_Debug C$:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---ChessAI\imgui\imgui.cpp || cmake_object_order_depends_target_demo
   CONFIG = Debug
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++20
   OBJECT_DIR = CMakeFiles\demo.dir
@@ -271,7 +271,7 @@ build CMakeFiles\demo.dir\imgui\imgui.cpp.obj: CXX_COMPILER__demo_unscanned_Debu
   TARGET_PDB = demo.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\demo.dir
 
-build CMakeFiles\demo.dir\classes\Bit.cpp.obj: CXX_COMPILER__demo_unscanned_Debug C$:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---Chess\classes\Bit.cpp || cmake_object_order_depends_target_demo
+build CMakeFiles\demo.dir\classes\Bit.cpp.obj: CXX_COMPILER__demo_unscanned_Debug C$:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---ChessAI\classes\Bit.cpp || cmake_object_order_depends_target_demo
   CONFIG = Debug
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++20
   OBJECT_DIR = CMakeFiles\demo.dir
@@ -280,7 +280,7 @@ build CMakeFiles\demo.dir\classes\Bit.cpp.obj: CXX_COMPILER__demo_unscanned_Debu
   TARGET_PDB = demo.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\demo.dir
 
-build CMakeFiles\demo.dir\classes\BitHolder.cpp.obj: CXX_COMPILER__demo_unscanned_Debug C$:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---Chess\classes\BitHolder.cpp || cmake_object_order_depends_target_demo
+build CMakeFiles\demo.dir\classes\BitHolder.cpp.obj: CXX_COMPILER__demo_unscanned_Debug C$:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---ChessAI\classes\BitHolder.cpp || cmake_object_order_depends_target_demo
   CONFIG = Debug
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++20
   OBJECT_DIR = CMakeFiles\demo.dir
@@ -289,7 +289,7 @@ build CMakeFiles\demo.dir\classes\BitHolder.cpp.obj: CXX_COMPILER__demo_unscanne
   TARGET_PDB = demo.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\demo.dir
 
-build CMakeFiles\demo.dir\classes\Game.cpp.obj: CXX_COMPILER__demo_unscanned_Debug C$:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---Chess\classes\Game.cpp || cmake_object_order_depends_target_demo
+build CMakeFiles\demo.dir\classes\Game.cpp.obj: CXX_COMPILER__demo_unscanned_Debug C$:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---ChessAI\classes\Game.cpp || cmake_object_order_depends_target_demo
   CONFIG = Debug
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++20
   OBJECT_DIR = CMakeFiles\demo.dir
@@ -298,7 +298,7 @@ build CMakeFiles\demo.dir\classes\Game.cpp.obj: CXX_COMPILER__demo_unscanned_Deb
   TARGET_PDB = demo.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\demo.dir
 
-build CMakeFiles\demo.dir\classes\Sprite.cpp.obj: CXX_COMPILER__demo_unscanned_Debug C$:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---Chess\classes\Sprite.cpp || cmake_object_order_depends_target_demo
+build CMakeFiles\demo.dir\classes\Sprite.cpp.obj: CXX_COMPILER__demo_unscanned_Debug C$:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---ChessAI\classes\Sprite.cpp || cmake_object_order_depends_target_demo
   CONFIG = Debug
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++20
   OBJECT_DIR = CMakeFiles\demo.dir
@@ -307,7 +307,7 @@ build CMakeFiles\demo.dir\classes\Sprite.cpp.obj: CXX_COMPILER__demo_unscanned_D
   TARGET_PDB = demo.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\demo.dir
 
-build CMakeFiles\demo.dir\classes\Square.cpp.obj: CXX_COMPILER__demo_unscanned_Debug C$:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---Chess\classes\Square.cpp || cmake_object_order_depends_target_demo
+build CMakeFiles\demo.dir\classes\Square.cpp.obj: CXX_COMPILER__demo_unscanned_Debug C$:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---ChessAI\classes\Square.cpp || cmake_object_order_depends_target_demo
   CONFIG = Debug
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++20
   OBJECT_DIR = CMakeFiles\demo.dir
@@ -316,7 +316,7 @@ build CMakeFiles\demo.dir\classes\Square.cpp.obj: CXX_COMPILER__demo_unscanned_D
   TARGET_PDB = demo.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\demo.dir
 
-build CMakeFiles\demo.dir\classes\ChessSquare.cpp.obj: CXX_COMPILER__demo_unscanned_Debug C$:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---Chess\classes\ChessSquare.cpp || cmake_object_order_depends_target_demo
+build CMakeFiles\demo.dir\classes\ChessSquare.cpp.obj: CXX_COMPILER__demo_unscanned_Debug C$:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---ChessAI\classes\ChessSquare.cpp || cmake_object_order_depends_target_demo
   CONFIG = Debug
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++20
   OBJECT_DIR = CMakeFiles\demo.dir
@@ -325,7 +325,7 @@ build CMakeFiles\demo.dir\classes\ChessSquare.cpp.obj: CXX_COMPILER__demo_unscan
   TARGET_PDB = demo.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\demo.dir
 
-build CMakeFiles\demo.dir\classes\Grid.cpp.obj: CXX_COMPILER__demo_unscanned_Debug C$:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---Chess\classes\Grid.cpp || cmake_object_order_depends_target_demo
+build CMakeFiles\demo.dir\classes\Grid.cpp.obj: CXX_COMPILER__demo_unscanned_Debug C$:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---ChessAI\classes\Grid.cpp || cmake_object_order_depends_target_demo
   CONFIG = Debug
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++20
   OBJECT_DIR = CMakeFiles\demo.dir
@@ -334,7 +334,7 @@ build CMakeFiles\demo.dir\classes\Grid.cpp.obj: CXX_COMPILER__demo_unscanned_Deb
   TARGET_PDB = demo.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\demo.dir
 
-build CMakeFiles\demo.dir\classes\TicTacToe.cpp.obj: CXX_COMPILER__demo_unscanned_Debug C$:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---Chess\classes\TicTacToe.cpp || cmake_object_order_depends_target_demo
+build CMakeFiles\demo.dir\classes\TicTacToe.cpp.obj: CXX_COMPILER__demo_unscanned_Debug C$:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---ChessAI\classes\TicTacToe.cpp || cmake_object_order_depends_target_demo
   CONFIG = Debug
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++20
   OBJECT_DIR = CMakeFiles\demo.dir
@@ -343,7 +343,7 @@ build CMakeFiles\demo.dir\classes\TicTacToe.cpp.obj: CXX_COMPILER__demo_unscanne
   TARGET_PDB = demo.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\demo.dir
 
-build CMakeFiles\demo.dir\classes\Checkers.cpp.obj: CXX_COMPILER__demo_unscanned_Debug C$:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---Chess\classes\Checkers.cpp || cmake_object_order_depends_target_demo
+build CMakeFiles\demo.dir\classes\Checkers.cpp.obj: CXX_COMPILER__demo_unscanned_Debug C$:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---ChessAI\classes\Checkers.cpp || cmake_object_order_depends_target_demo
   CONFIG = Debug
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++20
   OBJECT_DIR = CMakeFiles\demo.dir
@@ -352,7 +352,7 @@ build CMakeFiles\demo.dir\classes\Checkers.cpp.obj: CXX_COMPILER__demo_unscanned
   TARGET_PDB = demo.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\demo.dir
 
-build CMakeFiles\demo.dir\classes\Othello.cpp.obj: CXX_COMPILER__demo_unscanned_Debug C$:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---Chess\classes\Othello.cpp || cmake_object_order_depends_target_demo
+build CMakeFiles\demo.dir\classes\Othello.cpp.obj: CXX_COMPILER__demo_unscanned_Debug C$:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---ChessAI\classes\Othello.cpp || cmake_object_order_depends_target_demo
   CONFIG = Debug
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++20
   OBJECT_DIR = CMakeFiles\demo.dir
@@ -361,7 +361,7 @@ build CMakeFiles\demo.dir\classes\Othello.cpp.obj: CXX_COMPILER__demo_unscanned_
   TARGET_PDB = demo.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\demo.dir
 
-build CMakeFiles\demo.dir\classes\Chess.cpp.obj: CXX_COMPILER__demo_unscanned_Debug C$:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---Chess\classes\Chess.cpp || cmake_object_order_depends_target_demo
+build CMakeFiles\demo.dir\classes\Chess.cpp.obj: CXX_COMPILER__demo_unscanned_Debug C$:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---ChessAI\classes\Chess.cpp || cmake_object_order_depends_target_demo
   CONFIG = Debug
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++20
   OBJECT_DIR = CMakeFiles\demo.dir
@@ -370,7 +370,7 @@ build CMakeFiles\demo.dir\classes\Chess.cpp.obj: CXX_COMPILER__demo_unscanned_De
   TARGET_PDB = demo.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\demo.dir
 
-build CMakeFiles\demo.dir\imgui\imgui_impl_dx11.cpp.obj: CXX_COMPILER__demo_unscanned_Debug C$:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---Chess\imgui\imgui_impl_dx11.cpp || cmake_object_order_depends_target_demo
+build CMakeFiles\demo.dir\imgui\imgui_impl_dx11.cpp.obj: CXX_COMPILER__demo_unscanned_Debug C$:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---ChessAI\imgui\imgui_impl_dx11.cpp || cmake_object_order_depends_target_demo
   CONFIG = Debug
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++20
   OBJECT_DIR = CMakeFiles\demo.dir
@@ -379,7 +379,7 @@ build CMakeFiles\demo.dir\imgui\imgui_impl_dx11.cpp.obj: CXX_COMPILER__demo_unsc
   TARGET_PDB = demo.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\demo.dir
 
-build CMakeFiles\demo.dir\main_win32.cpp.obj: CXX_COMPILER__demo_unscanned_Debug C$:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---Chess\main_win32.cpp || cmake_object_order_depends_target_demo
+build CMakeFiles\demo.dir\main_win32.cpp.obj: CXX_COMPILER__demo_unscanned_Debug C$:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---ChessAI\main_win32.cpp || cmake_object_order_depends_target_demo
   CONFIG = Debug
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++20
   OBJECT_DIR = CMakeFiles\demo.dir
@@ -388,7 +388,7 @@ build CMakeFiles\demo.dir\main_win32.cpp.obj: CXX_COMPILER__demo_unscanned_Debug
   TARGET_PDB = demo.pdb
   TARGET_SUPPORT_DIR = CMakeFiles\demo.dir
 
-build CMakeFiles\demo.dir\imgui\imgui_impl_win32.cpp.obj: CXX_COMPILER__demo_unscanned_Debug C$:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---Chess\imgui\imgui_impl_win32.cpp || cmake_object_order_depends_target_demo
+build CMakeFiles\demo.dir\imgui\imgui_impl_win32.cpp.obj: CXX_COMPILER__demo_unscanned_Debug C$:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---ChessAI\imgui\imgui_impl_win32.cpp || cmake_object_order_depends_target_demo
   CONFIG = Debug
   FLAGS = /DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1 -std:c++20
   OBJECT_DIR = CMakeFiles\demo.dir
@@ -411,7 +411,7 @@ build demo.exe: CXX_EXECUTABLE_LINKER__demo_Debug CMakeFiles\demo.dir\Applicatio
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = d3d11.lib  d3dcompiler.lib  dxgi.lib  user32.lib  gdi32.lib  winmm.lib  kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
   OBJECT_DIR = CMakeFiles\demo.dir
-  POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---Chess\build && "C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/Users/noaht/OneDrive/Documents/GitHub/CMPM-123---Chess/resources C:/Users/noaht/OneDrive/Documents/GitHub/CMPM-123---Chess/build/resources"
+  POST_BUILD = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---ChessAI\build && "C:\Program Files\CMake\bin\cmake.exe" -E copy_directory C:/Users/noaht/OneDrive/Documents/GitHub/CMPM-123---ChessAI/resources C:/Users/noaht/OneDrive/Documents/GitHub/CMPM-123---ChessAI/build/resources"
   PRE_LINK = cd .
   TARGET_COMPILE_PDB = CMakeFiles\demo.dir\
   TARGET_FILE = demo.exe
@@ -424,7 +424,7 @@ build demo.exe: CXX_EXECUTABLE_LINKER__demo_Debug CMakeFiles\demo.dir\Applicatio
 # Utility command for package
 
 build CMakeFiles\package.util: CUSTOM_COMMAND all
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---Chess\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackConfig.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---ChessAI\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackConfig.cmake"
   DESC = Run CPack packaging tool...
   pool = console
   restat = 1
@@ -436,7 +436,7 @@ build package: phony CMakeFiles\package.util
 # Utility command for package_source
 
 build CMakeFiles\package_source.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---Chess\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---ChessAI\build && "C:\Program Files\CMake\bin\cpack.exe" --config ./CPackSourceConfig.cmake"
   DESC = Run CPack packaging tool for source...
   pool = console
   restat = 1
@@ -448,7 +448,7 @@ build package_source: phony CMakeFiles\package_source.util
 # Utility command for test
 
 build CMakeFiles\test.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---Chess\build && "C:\Program Files\CMake\bin\ctest.exe" "
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---ChessAI\build && "C:\Program Files\CMake\bin\ctest.exe" "
   DESC = Running tests...
   pool = console
   restat = 1
@@ -460,7 +460,7 @@ build test: phony CMakeFiles\test.util
 # Utility command for edit_cache
 
 build CMakeFiles\edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---Chess\build && "C:\Program Files\CMake\bin\cmake-gui.exe" -SC:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---Chess -BC:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---Chess\build"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---ChessAI\build && "C:\Program Files\CMake\bin\cmake-gui.exe" -SC:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---ChessAI -BC:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---ChessAI\build"
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -472,7 +472,7 @@ build edit_cache: phony CMakeFiles\edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles\rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---Chess\build && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---Chess -BC:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---Chess\build"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---ChessAI\build && "C:\Program Files\CMake\bin\cmake.exe" --regenerate-during-build -SC:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---ChessAI -BC:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---ChessAI\build"
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -484,7 +484,7 @@ build rebuild_cache: phony CMakeFiles\rebuild_cache.util
 # Custom command for CMakeFiles\Experimental
 
 build CMakeFiles\Experimental | ${cmake_ninja_workdir}CMakeFiles\Experimental: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---Chess\build && "C:\Program Files\CMake\bin\ctest.exe" -DMODEL=Experimental -S CMakeFiles/CTestScript.cmake -V"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---ChessAI\build && "C:\Program Files\CMake\bin\ctest.exe" -DMODEL=Experimental -S CMakeFiles/CTestScript.cmake -V"
   pool = console
 
 
@@ -492,7 +492,7 @@ build CMakeFiles\Experimental | ${cmake_ninja_workdir}CMakeFiles\Experimental: C
 # Custom command for CMakeFiles\Nightly
 
 build CMakeFiles\Nightly | ${cmake_ninja_workdir}CMakeFiles\Nightly: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---Chess\build && "C:\Program Files\CMake\bin\ctest.exe" -DMODEL=Nightly -S CMakeFiles/CTestScript.cmake -V"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---ChessAI\build && "C:\Program Files\CMake\bin\ctest.exe" -DMODEL=Nightly -S CMakeFiles/CTestScript.cmake -V"
   pool = console
 
 
@@ -500,7 +500,7 @@ build CMakeFiles\Nightly | ${cmake_ninja_workdir}CMakeFiles\Nightly: CUSTOM_COMM
 # Custom command for CMakeFiles\Continuous
 
 build CMakeFiles\Continuous | ${cmake_ninja_workdir}CMakeFiles\Continuous: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---Chess\build && "C:\Program Files\CMake\bin\ctest.exe" -DMODEL=Continuous -S CMakeFiles/CTestScript.cmake -V"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---ChessAI\build && "C:\Program Files\CMake\bin\ctest.exe" -DMODEL=Continuous -S CMakeFiles/CTestScript.cmake -V"
   pool = console
 
 
@@ -508,7 +508,7 @@ build CMakeFiles\Continuous | ${cmake_ninja_workdir}CMakeFiles\Continuous: CUSTO
 # Custom command for CMakeFiles\NightlyMemoryCheck
 
 build CMakeFiles\NightlyMemoryCheck | ${cmake_ninja_workdir}CMakeFiles\NightlyMemoryCheck: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---Chess\build && "C:\Program Files\CMake\bin\ctest.exe" -DMODEL=NightlyMemoryCheck -S CMakeFiles/CTestScript.cmake -V"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---ChessAI\build && "C:\Program Files\CMake\bin\ctest.exe" -DMODEL=NightlyMemoryCheck -S CMakeFiles/CTestScript.cmake -V"
   pool = console
 
 
@@ -516,7 +516,7 @@ build CMakeFiles\NightlyMemoryCheck | ${cmake_ninja_workdir}CMakeFiles\NightlyMe
 # Custom command for CMakeFiles\NightlyStart
 
 build CMakeFiles\NightlyStart | ${cmake_ninja_workdir}CMakeFiles\NightlyStart: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---Chess\build && "C:\Program Files\CMake\bin\ctest.exe" -DMODEL=Nightly -DACTIONS=Start -S CMakeFiles/CTestScript.cmake -V"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---ChessAI\build && "C:\Program Files\CMake\bin\ctest.exe" -DMODEL=Nightly -DACTIONS=Start -S CMakeFiles/CTestScript.cmake -V"
   pool = console
 
 
@@ -524,7 +524,7 @@ build CMakeFiles\NightlyStart | ${cmake_ninja_workdir}CMakeFiles\NightlyStart: C
 # Custom command for CMakeFiles\NightlyUpdate
 
 build CMakeFiles\NightlyUpdate | ${cmake_ninja_workdir}CMakeFiles\NightlyUpdate: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---Chess\build && "C:\Program Files\CMake\bin\ctest.exe" -DMODEL=Nightly -DACTIONS=Update -S CMakeFiles/CTestScript.cmake -V"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---ChessAI\build && "C:\Program Files\CMake\bin\ctest.exe" -DMODEL=Nightly -DACTIONS=Update -S CMakeFiles/CTestScript.cmake -V"
   pool = console
 
 
@@ -532,7 +532,7 @@ build CMakeFiles\NightlyUpdate | ${cmake_ninja_workdir}CMakeFiles\NightlyUpdate:
 # Custom command for CMakeFiles\NightlyConfigure
 
 build CMakeFiles\NightlyConfigure | ${cmake_ninja_workdir}CMakeFiles\NightlyConfigure: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---Chess\build && "C:\Program Files\CMake\bin\ctest.exe" -DMODEL=Nightly -DACTIONS=Configure -S CMakeFiles/CTestScript.cmake -V"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---ChessAI\build && "C:\Program Files\CMake\bin\ctest.exe" -DMODEL=Nightly -DACTIONS=Configure -S CMakeFiles/CTestScript.cmake -V"
   pool = console
 
 
@@ -540,7 +540,7 @@ build CMakeFiles\NightlyConfigure | ${cmake_ninja_workdir}CMakeFiles\NightlyConf
 # Custom command for CMakeFiles\NightlyBuild
 
 build CMakeFiles\NightlyBuild | ${cmake_ninja_workdir}CMakeFiles\NightlyBuild: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---Chess\build && "C:\Program Files\CMake\bin\ctest.exe" -DMODEL=Nightly -DACTIONS=Build -S CMakeFiles/CTestScript.cmake -V"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---ChessAI\build && "C:\Program Files\CMake\bin\ctest.exe" -DMODEL=Nightly -DACTIONS=Build -S CMakeFiles/CTestScript.cmake -V"
   pool = console
 
 
@@ -548,7 +548,7 @@ build CMakeFiles\NightlyBuild | ${cmake_ninja_workdir}CMakeFiles\NightlyBuild: C
 # Custom command for CMakeFiles\NightlyTest
 
 build CMakeFiles\NightlyTest | ${cmake_ninja_workdir}CMakeFiles\NightlyTest: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---Chess\build && "C:\Program Files\CMake\bin\ctest.exe" -DMODEL=Nightly -DACTIONS=Test -S CMakeFiles/CTestScript.cmake -V"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---ChessAI\build && "C:\Program Files\CMake\bin\ctest.exe" -DMODEL=Nightly -DACTIONS=Test -S CMakeFiles/CTestScript.cmake -V"
   pool = console
 
 
@@ -556,7 +556,7 @@ build CMakeFiles\NightlyTest | ${cmake_ninja_workdir}CMakeFiles\NightlyTest: CUS
 # Custom command for CMakeFiles\NightlyCoverage
 
 build CMakeFiles\NightlyCoverage | ${cmake_ninja_workdir}CMakeFiles\NightlyCoverage: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---Chess\build && "C:\Program Files\CMake\bin\ctest.exe" -DMODEL=Nightly -DACTIONS=Coverage -S CMakeFiles/CTestScript.cmake -V"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---ChessAI\build && "C:\Program Files\CMake\bin\ctest.exe" -DMODEL=Nightly -DACTIONS=Coverage -S CMakeFiles/CTestScript.cmake -V"
   pool = console
 
 
@@ -564,7 +564,7 @@ build CMakeFiles\NightlyCoverage | ${cmake_ninja_workdir}CMakeFiles\NightlyCover
 # Custom command for CMakeFiles\NightlyMemCheck
 
 build CMakeFiles\NightlyMemCheck | ${cmake_ninja_workdir}CMakeFiles\NightlyMemCheck: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---Chess\build && "C:\Program Files\CMake\bin\ctest.exe" -DMODEL=Nightly -DACTIONS=MemCheck -S CMakeFiles/CTestScript.cmake -V"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---ChessAI\build && "C:\Program Files\CMake\bin\ctest.exe" -DMODEL=Nightly -DACTIONS=MemCheck -S CMakeFiles/CTestScript.cmake -V"
   pool = console
 
 
@@ -572,7 +572,7 @@ build CMakeFiles\NightlyMemCheck | ${cmake_ninja_workdir}CMakeFiles\NightlyMemCh
 # Custom command for CMakeFiles\NightlySubmit
 
 build CMakeFiles\NightlySubmit | ${cmake_ninja_workdir}CMakeFiles\NightlySubmit: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---Chess\build && "C:\Program Files\CMake\bin\ctest.exe" -DMODEL=Nightly -DACTIONS=Submit -S CMakeFiles/CTestScript.cmake -V"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---ChessAI\build && "C:\Program Files\CMake\bin\ctest.exe" -DMODEL=Nightly -DACTIONS=Submit -S CMakeFiles/CTestScript.cmake -V"
   pool = console
 
 
@@ -580,7 +580,7 @@ build CMakeFiles\NightlySubmit | ${cmake_ninja_workdir}CMakeFiles\NightlySubmit:
 # Custom command for CMakeFiles\ExperimentalStart
 
 build CMakeFiles\ExperimentalStart | ${cmake_ninja_workdir}CMakeFiles\ExperimentalStart: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---Chess\build && "C:\Program Files\CMake\bin\ctest.exe" -DMODEL=Experimental -DACTIONS=Start -S CMakeFiles/CTestScript.cmake -V"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---ChessAI\build && "C:\Program Files\CMake\bin\ctest.exe" -DMODEL=Experimental -DACTIONS=Start -S CMakeFiles/CTestScript.cmake -V"
   pool = console
 
 
@@ -588,7 +588,7 @@ build CMakeFiles\ExperimentalStart | ${cmake_ninja_workdir}CMakeFiles\Experiment
 # Custom command for CMakeFiles\ExperimentalUpdate
 
 build CMakeFiles\ExperimentalUpdate | ${cmake_ninja_workdir}CMakeFiles\ExperimentalUpdate: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---Chess\build && "C:\Program Files\CMake\bin\ctest.exe" -DMODEL=Experimental -DACTIONS=Update -S CMakeFiles/CTestScript.cmake -V"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---ChessAI\build && "C:\Program Files\CMake\bin\ctest.exe" -DMODEL=Experimental -DACTIONS=Update -S CMakeFiles/CTestScript.cmake -V"
   pool = console
 
 
@@ -596,7 +596,7 @@ build CMakeFiles\ExperimentalUpdate | ${cmake_ninja_workdir}CMakeFiles\Experimen
 # Custom command for CMakeFiles\ExperimentalConfigure
 
 build CMakeFiles\ExperimentalConfigure | ${cmake_ninja_workdir}CMakeFiles\ExperimentalConfigure: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---Chess\build && "C:\Program Files\CMake\bin\ctest.exe" -DMODEL=Experimental -DACTIONS=Configure -S CMakeFiles/CTestScript.cmake -V"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---ChessAI\build && "C:\Program Files\CMake\bin\ctest.exe" -DMODEL=Experimental -DACTIONS=Configure -S CMakeFiles/CTestScript.cmake -V"
   pool = console
 
 
@@ -604,7 +604,7 @@ build CMakeFiles\ExperimentalConfigure | ${cmake_ninja_workdir}CMakeFiles\Experi
 # Custom command for CMakeFiles\ExperimentalBuild
 
 build CMakeFiles\ExperimentalBuild | ${cmake_ninja_workdir}CMakeFiles\ExperimentalBuild: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---Chess\build && "C:\Program Files\CMake\bin\ctest.exe" -DMODEL=Experimental -DACTIONS=Build -S CMakeFiles/CTestScript.cmake -V"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---ChessAI\build && "C:\Program Files\CMake\bin\ctest.exe" -DMODEL=Experimental -DACTIONS=Build -S CMakeFiles/CTestScript.cmake -V"
   pool = console
 
 
@@ -612,7 +612,7 @@ build CMakeFiles\ExperimentalBuild | ${cmake_ninja_workdir}CMakeFiles\Experiment
 # Custom command for CMakeFiles\ExperimentalTest
 
 build CMakeFiles\ExperimentalTest | ${cmake_ninja_workdir}CMakeFiles\ExperimentalTest: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---Chess\build && "C:\Program Files\CMake\bin\ctest.exe" -DMODEL=Experimental -DACTIONS=Test -S CMakeFiles/CTestScript.cmake -V"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---ChessAI\build && "C:\Program Files\CMake\bin\ctest.exe" -DMODEL=Experimental -DACTIONS=Test -S CMakeFiles/CTestScript.cmake -V"
   pool = console
 
 
@@ -620,7 +620,7 @@ build CMakeFiles\ExperimentalTest | ${cmake_ninja_workdir}CMakeFiles\Experimenta
 # Custom command for CMakeFiles\ExperimentalCoverage
 
 build CMakeFiles\ExperimentalCoverage | ${cmake_ninja_workdir}CMakeFiles\ExperimentalCoverage: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---Chess\build && "C:\Program Files\CMake\bin\ctest.exe" -DMODEL=Experimental -DACTIONS=Coverage -S CMakeFiles/CTestScript.cmake -V"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---ChessAI\build && "C:\Program Files\CMake\bin\ctest.exe" -DMODEL=Experimental -DACTIONS=Coverage -S CMakeFiles/CTestScript.cmake -V"
   pool = console
 
 
@@ -628,7 +628,7 @@ build CMakeFiles\ExperimentalCoverage | ${cmake_ninja_workdir}CMakeFiles\Experim
 # Custom command for CMakeFiles\ExperimentalMemCheck
 
 build CMakeFiles\ExperimentalMemCheck | ${cmake_ninja_workdir}CMakeFiles\ExperimentalMemCheck: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---Chess\build && "C:\Program Files\CMake\bin\ctest.exe" -DMODEL=Experimental -DACTIONS=MemCheck -S CMakeFiles/CTestScript.cmake -V"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---ChessAI\build && "C:\Program Files\CMake\bin\ctest.exe" -DMODEL=Experimental -DACTIONS=MemCheck -S CMakeFiles/CTestScript.cmake -V"
   pool = console
 
 
@@ -636,7 +636,7 @@ build CMakeFiles\ExperimentalMemCheck | ${cmake_ninja_workdir}CMakeFiles\Experim
 # Custom command for CMakeFiles\ExperimentalSubmit
 
 build CMakeFiles\ExperimentalSubmit | ${cmake_ninja_workdir}CMakeFiles\ExperimentalSubmit: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---Chess\build && "C:\Program Files\CMake\bin\ctest.exe" -DMODEL=Experimental -DACTIONS=Submit -S CMakeFiles/CTestScript.cmake -V"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---ChessAI\build && "C:\Program Files\CMake\bin\ctest.exe" -DMODEL=Experimental -DACTIONS=Submit -S CMakeFiles/CTestScript.cmake -V"
   pool = console
 
 
@@ -644,7 +644,7 @@ build CMakeFiles\ExperimentalSubmit | ${cmake_ninja_workdir}CMakeFiles\Experimen
 # Custom command for CMakeFiles\ContinuousStart
 
 build CMakeFiles\ContinuousStart | ${cmake_ninja_workdir}CMakeFiles\ContinuousStart: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---Chess\build && "C:\Program Files\CMake\bin\ctest.exe" -DMODEL=Continuous -DACTIONS=Start -S CMakeFiles/CTestScript.cmake -V"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---ChessAI\build && "C:\Program Files\CMake\bin\ctest.exe" -DMODEL=Continuous -DACTIONS=Start -S CMakeFiles/CTestScript.cmake -V"
   pool = console
 
 
@@ -652,7 +652,7 @@ build CMakeFiles\ContinuousStart | ${cmake_ninja_workdir}CMakeFiles\ContinuousSt
 # Custom command for CMakeFiles\ContinuousUpdate
 
 build CMakeFiles\ContinuousUpdate | ${cmake_ninja_workdir}CMakeFiles\ContinuousUpdate: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---Chess\build && "C:\Program Files\CMake\bin\ctest.exe" -DMODEL=Continuous -DACTIONS=Update -S CMakeFiles/CTestScript.cmake -V"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---ChessAI\build && "C:\Program Files\CMake\bin\ctest.exe" -DMODEL=Continuous -DACTIONS=Update -S CMakeFiles/CTestScript.cmake -V"
   pool = console
 
 
@@ -660,7 +660,7 @@ build CMakeFiles\ContinuousUpdate | ${cmake_ninja_workdir}CMakeFiles\ContinuousU
 # Custom command for CMakeFiles\ContinuousConfigure
 
 build CMakeFiles\ContinuousConfigure | ${cmake_ninja_workdir}CMakeFiles\ContinuousConfigure: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---Chess\build && "C:\Program Files\CMake\bin\ctest.exe" -DMODEL=Continuous -DACTIONS=Configure -S CMakeFiles/CTestScript.cmake -V"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---ChessAI\build && "C:\Program Files\CMake\bin\ctest.exe" -DMODEL=Continuous -DACTIONS=Configure -S CMakeFiles/CTestScript.cmake -V"
   pool = console
 
 
@@ -668,7 +668,7 @@ build CMakeFiles\ContinuousConfigure | ${cmake_ninja_workdir}CMakeFiles\Continuo
 # Custom command for CMakeFiles\ContinuousBuild
 
 build CMakeFiles\ContinuousBuild | ${cmake_ninja_workdir}CMakeFiles\ContinuousBuild: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---Chess\build && "C:\Program Files\CMake\bin\ctest.exe" -DMODEL=Continuous -DACTIONS=Build -S CMakeFiles/CTestScript.cmake -V"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---ChessAI\build && "C:\Program Files\CMake\bin\ctest.exe" -DMODEL=Continuous -DACTIONS=Build -S CMakeFiles/CTestScript.cmake -V"
   pool = console
 
 
@@ -676,7 +676,7 @@ build CMakeFiles\ContinuousBuild | ${cmake_ninja_workdir}CMakeFiles\ContinuousBu
 # Custom command for CMakeFiles\ContinuousTest
 
 build CMakeFiles\ContinuousTest | ${cmake_ninja_workdir}CMakeFiles\ContinuousTest: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---Chess\build && "C:\Program Files\CMake\bin\ctest.exe" -DMODEL=Continuous -DACTIONS=Test -S CMakeFiles/CTestScript.cmake -V"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---ChessAI\build && "C:\Program Files\CMake\bin\ctest.exe" -DMODEL=Continuous -DACTIONS=Test -S CMakeFiles/CTestScript.cmake -V"
   pool = console
 
 
@@ -684,7 +684,7 @@ build CMakeFiles\ContinuousTest | ${cmake_ninja_workdir}CMakeFiles\ContinuousTes
 # Custom command for CMakeFiles\ContinuousCoverage
 
 build CMakeFiles\ContinuousCoverage | ${cmake_ninja_workdir}CMakeFiles\ContinuousCoverage: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---Chess\build && "C:\Program Files\CMake\bin\ctest.exe" -DMODEL=Continuous -DACTIONS=Coverage -S CMakeFiles/CTestScript.cmake -V"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---ChessAI\build && "C:\Program Files\CMake\bin\ctest.exe" -DMODEL=Continuous -DACTIONS=Coverage -S CMakeFiles/CTestScript.cmake -V"
   pool = console
 
 
@@ -692,7 +692,7 @@ build CMakeFiles\ContinuousCoverage | ${cmake_ninja_workdir}CMakeFiles\Continuou
 # Custom command for CMakeFiles\ContinuousMemCheck
 
 build CMakeFiles\ContinuousMemCheck | ${cmake_ninja_workdir}CMakeFiles\ContinuousMemCheck: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---Chess\build && "C:\Program Files\CMake\bin\ctest.exe" -DMODEL=Continuous -DACTIONS=MemCheck -S CMakeFiles/CTestScript.cmake -V"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---ChessAI\build && "C:\Program Files\CMake\bin\ctest.exe" -DMODEL=Continuous -DACTIONS=MemCheck -S CMakeFiles/CTestScript.cmake -V"
   pool = console
 
 
@@ -700,7 +700,7 @@ build CMakeFiles\ContinuousMemCheck | ${cmake_ninja_workdir}CMakeFiles\Continuou
 # Custom command for CMakeFiles\ContinuousSubmit
 
 build CMakeFiles\ContinuousSubmit | ${cmake_ninja_workdir}CMakeFiles\ContinuousSubmit: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---Chess\build && "C:\Program Files\CMake\bin\ctest.exe" -DMODEL=Continuous -DACTIONS=Submit -S CMakeFiles/CTestScript.cmake -V"
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D C:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---ChessAI\build && "C:\Program Files\CMake\bin\ctest.exe" -DMODEL=Continuous -DACTIONS=Submit -S CMakeFiles/CTestScript.cmake -V"
   pool = console
 
 # =============================================================================
@@ -714,7 +714,7 @@ build demo: phony demo.exe
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/noaht/OneDrive/Documents/GitHub/CMPM-123---Chess/build
+# Folder: C:/Users/noaht/OneDrive/Documents/GitHub/CMPM-123---ChessAI/build
 
 build all: phony demo.exe
 
@@ -725,14 +725,14 @@ build all: phony demo.exe
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja C$:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---Chess\build\cmake_install.cmake C$:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---Chess\build\CTestTestfile.cmake: RERUN_CMAKE | C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeCInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeRCInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CPack.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CPackComponent.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CTest.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CTestTargets.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CTestUseLaunchers.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\DartConfiguration.tcl.in C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCLinkerInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCXXLinkerInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCommonLinkerInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Linker\MSVC-C.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Linker\MSVC-CXX.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Linker\MSVC.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-C.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-CXX.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Windows-Initialize.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Windows.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\WindowsPaths.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Templates\CPackConfig.cmake.in C$:\Program$ Files\CMake\share\cmake-4.2\Templates\CTestScript.cmake.in C$:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---Chess\CMakeLists.txt CMakeCache.txt CMakeFiles\4.2.1\CMakeCCompiler.cmake CMakeFiles\4.2.1\CMakeCXXCompiler.cmake CMakeFiles\4.2.1\CMakeRCCompiler.cmake CMakeFiles\4.2.1\CMakeSystem.cmake
+build build.ninja C$:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---ChessAI\build\cmake_install.cmake C$:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---ChessAI\build\CTestTestfile.cmake: RERUN_CMAKE | C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeCCompiler.cmake.in C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeCCompilerABI.c C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeCInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeCXXCompiler.cmake.in C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeCXXCompilerABI.cpp C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeCompilerIdDetection.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeDetermineCCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeDetermineCXXCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeDetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeDetermineCompilerABI.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeDetermineCompilerId.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeDetermineCompilerSupport.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeDetermineRCCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeDetermineSystem.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeFindBinUtils.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeNinjaFindMake.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeParseImplicitIncludeInfo.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeParseImplicitLinkInfo.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeParseLibraryArchitecture.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeRCCompiler.cmake.in C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeRCInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeSystem.cmake.in C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeTestCCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeTestCXXCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeTestCompilerCommon.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeTestRCCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CPack.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CPackComponent.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CTest.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CTestTargets.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CTestUseLaunchers.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\ADSP-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\ARMCC-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\ARMClang-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\AppleClang-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\Borland-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\Bruce-C-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\Clang-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\Clang-DetermineCompilerInternal.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\Compaq-C-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\Cray-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\CrayClang-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\Diab-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\Embarcadero-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\Fujitsu-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\GHS-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\GNU-C-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\HP-C-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\HP-CXX-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\IAR-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\Intel-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\LCC-C-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-CXX-CXXImportStd.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\NVHPC-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\NVIDIA-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\OrangeC-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\PGI-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\PathScale-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\Renesas-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\SCO-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\SDCC-C-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\SunPro-C-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\TI-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\TIClang-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\Tasking-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\Watcom-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\XL-C-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\XL-CXX-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\XLClang-C-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\zOS-C-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\DartConfiguration.tcl.in C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCLinkerInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCXXLinkerInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCommonLinkerInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Internal\CMakeDetermineLinkerId.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Internal\CMakeInspectCLinker.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Internal\CMakeInspectCXXLinker.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Internal\FeatureTesting.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Linker\MSVC-C.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Linker\MSVC-CXX.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Linker\MSVC.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-C.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-CXX.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Windows-Determine-CXX.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Windows-Initialize.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Windows.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\WindowsPaths.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Templates\CPackConfig.cmake.in C$:\Program$ Files\CMake\share\cmake-4.2\Templates\CTestScript.cmake.in C$:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---ChessAI\CMakeLists.txt CMakeCache.txt CMakeFiles\4.2.1\CMakeCCompiler.cmake CMakeFiles\4.2.1\CMakeCXXCompiler.cmake CMakeFiles\4.2.1\CMakeRCCompiler.cmake CMakeFiles\4.2.1\CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeCInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeRCInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CPack.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CPackComponent.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CTest.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CTestTargets.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CTestUseLaunchers.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\DartConfiguration.tcl.in C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCLinkerInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCXXLinkerInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCommonLinkerInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Linker\MSVC-C.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Linker\MSVC-CXX.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Linker\MSVC.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-C.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-CXX.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Windows-Initialize.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Windows.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\WindowsPaths.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Templates\CPackConfig.cmake.in C$:\Program$ Files\CMake\share\cmake-4.2\Templates\CTestScript.cmake.in C$:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---Chess\CMakeLists.txt CMakeCache.txt CMakeFiles\4.2.1\CMakeCCompiler.cmake CMakeFiles\4.2.1\CMakeCXXCompiler.cmake CMakeFiles\4.2.1\CMakeRCCompiler.cmake CMakeFiles\4.2.1\CMakeSystem.cmake: phony
+build C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeCCompiler.cmake.in C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeCCompilerABI.c C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeCInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeCXXCompiler.cmake.in C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeCXXCompilerABI.cpp C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeCXXInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeCommonLanguageInclude.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeCompilerIdDetection.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeDetermineCCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeDetermineCXXCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeDetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeDetermineCompilerABI.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeDetermineCompilerId.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeDetermineCompilerSupport.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeDetermineRCCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeDetermineSystem.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeFindBinUtils.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeGenericSystem.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeInitializeConfigs.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeLanguageInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeNinjaFindMake.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeParseImplicitIncludeInfo.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeParseImplicitLinkInfo.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeParseLibraryArchitecture.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeRCCompiler.cmake.in C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeRCInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeSystem.cmake.in C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeSystemSpecificInitialize.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeTestCCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeTestCXXCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeTestCompilerCommon.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CMakeTestRCCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CPack.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CPackComponent.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CTest.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CTestTargets.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\CTestUseLaunchers.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\ADSP-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\ARMCC-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\ARMClang-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\AppleClang-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\Borland-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\Bruce-C-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\CMakeCommonCompilerMacros.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\Clang-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\Clang-DetermineCompilerInternal.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\Compaq-C-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\Cray-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\CrayClang-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\Diab-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\Embarcadero-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\Fujitsu-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\FujitsuClang-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\GHS-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\GNU-C-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\HP-C-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\HP-CXX-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\IAR-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\IBMClang-C-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\IBMClang-CXX-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\Intel-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\IntelLLVM-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\LCC-C-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\LCC-CXX-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-C.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-CXX-CXXImportStd.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-CXX.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\MSVC.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\NVHPC-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\NVIDIA-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\OrangeC-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\PGI-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\PathScale-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\Renesas-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\SCO-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\SDCC-C-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\SunPro-C-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\TI-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\TIClang-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\Tasking-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\Watcom-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\XL-C-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\XL-CXX-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\XLClang-C-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\XLClang-CXX-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\zOS-C-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\DartConfiguration.tcl.in C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCLinkerInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCXXLinkerInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Internal\CMakeCommonLinkerInformation.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Internal\CMakeDetermineLinkerId.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Internal\CMakeInspectCLinker.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Internal\CMakeInspectCXXLinker.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Internal\FeatureTesting.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Linker\MSVC-C.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Linker\MSVC-CXX.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Linker\MSVC.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-C.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC-CXX.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Linker\Windows-MSVC.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Windows-Determine-CXX.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Windows-Initialize.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC-C.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC-CXX.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Windows-MSVC.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\Windows.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Modules\Platform\WindowsPaths.cmake C$:\Program$ Files\CMake\share\cmake-4.2\Templates\CPackConfig.cmake.in C$:\Program$ Files\CMake\share\cmake-4.2\Templates\CTestScript.cmake.in C$:\Users\noaht\OneDrive\Documents\GitHub\CMPM-123---ChessAI\CMakeLists.txt CMakeCache.txt CMakeFiles\4.2.1\CMakeCCompiler.cmake CMakeFiles\4.2.1\CMakeCXXCompiler.cmake CMakeFiles\4.2.1\CMakeRCCompiler.cmake CMakeFiles\4.2.1\CMakeSystem.cmake: phony
 
 
 #############################################

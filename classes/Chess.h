@@ -3,7 +3,6 @@
 #include "Game.h"
 #include "Grid.h"
 #include "Bitboard.h"
-#include "Evaluate.h"
 
 constexpr int pieceSize = 80;
 constexpr int WHITE = +1;
@@ -52,6 +51,8 @@ public:
 
     Grid* getGrid() override { return _grid; }
 
+    int evaluateBoard(const char* state);
+
 private:
     Bit* PieceForPlayer(const int playerNumber, ChessPiece piece);
     Player* ownerAt(int x, int y) const;
@@ -66,6 +67,11 @@ private:
     void generateRookMoves(std::vector<BitMove> &moves, Bitboard piecesBoard, uint64_t occupancy, uint64_t friendlies);
     void generateQueenMoves(std::vector<BitMove> &moves, Bitboard piecesBoard, uint64_t occupancy, uint64_t friendlies);
     void addMoveIfValid(std::string &state, std::vector<BitMove> &moves, int fromRow, int fromCol, int toRow, int toCol);
+
+    // AI functions
+    int negamax(int depth, int alpha, int beta, std::string &state, int playerColor);
+    void updateAI();
+    std::vector<BitMove> generateAllMovesFromState(std::string &state, int player);
 
     Grid* _grid;
     int _currentPlayer;
