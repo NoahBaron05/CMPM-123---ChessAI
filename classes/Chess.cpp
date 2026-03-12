@@ -251,7 +251,7 @@ void Chess::setStateString(const std::string &s)
 
 std::vector<BitMove> Chess::generateAllMoves(){
     std::vector<BitMove> moves;
-    moves.reserve(32);
+    moves.reserve(64);
     std::string state = stateString();
 
     for (int i = 0; i < e_numBitboards; i++) {
@@ -259,13 +259,14 @@ std::vector<BitMove> Chess::generateAllMoves(){
     }
 
     for (int i = 0; i < 64; i++){
-        int bitIndex = _bitboardLookup[state[i]];
+        char piece = state[i];
+        if (piece == '0') continue;
+
+        int bitIndex = _bitboardLookup[piece];
         _bitboards[bitIndex] |= 1ULL << i;
 
-        if (state[i] != '0'){
-            _bitboards[OCCUPANCY] |= 1ULL << i;
-            _bitboards[isupper(state[i]) ? WHITE_ALL_PIECES : BLACK_ALL_PIECES] |= 1ULL << i;
-        }
+        _bitboards[OCCUPANCY] |= 1ULL << i;
+        _bitboards[isupper(piece) ? WHITE_ALL_PIECES : BLACK_ALL_PIECES] |= 1ULL << i;
     }
 
     int bitIndex = _currentPlayer == WHITE ? WHITE_PAWNS : BLACK_PAWNS;
@@ -342,10 +343,15 @@ void Chess::generatePawnMoves(std::vector<BitMove> &moves, std::string &state, i
         moves.emplace_back(row * 8 + col, (row + direction) * 8 + col, Pawn);
 
         // Two squares forward from starting position
-        int forward2 = (row + 2 * direction) * 8 + col;
+        int forward2Row = row + 2 * direction;
 
-        if (state[forward2] == '0' && row == startRow) {
-            moves.emplace_back(row * 8 + col, (row + 2 * direction) * 8 + col, Pawn);
+        if (row == startRow && forward2Row >= 0 && forward2Row < 8) {
+
+            int forward2 = forward2Row * 8 + col;
+
+            if (state[forward2] == '0') {
+                moves.emplace_back(row * 8 + col, forward2, Pawn);
+            }
         }
     }
 
@@ -417,13 +423,7 @@ void Chess::updateAI(){
 
         std::string newState(baseState);
 
-        int score = -negamax(
-            3,
-            -myInfinity,
-            myInfinity,
-            newState,
-            -playerColor
-        );
+        int score = -negamax(3, -myInfinity, myInfinity, newState, -playerColor);
 
         if (score > bestMoveScore) {
             bestMoveScore = score;
@@ -500,13 +500,14 @@ std::vector<BitMove> Chess::generateAllMovesFromState(std::string &state, int pl
 
     for (int i = 0; i < 64; i++){
 
-        int bitIndex = _bitboardLookup[state[i]];
+        char piece = state[i];
+        if (piece == '0') continue;
+
+        int bitIndex = _bitboardLookup[piece];
         _bitboards[bitIndex] |= 1ULL << i;
 
-        if (state[i] != '0'){
-            _bitboards[OCCUPANCY] |= 1ULL << i;
-            _bitboards[isupper(state[i]) ? WHITE_ALL_PIECES : BLACK_ALL_PIECES] |= 1ULL << i;
-        }
+        _bitboards[OCCUPANCY] |= 1ULL << i;
+        _bitboards[isupper(piece) ? WHITE_ALL_PIECES : BLACK_ALL_PIECES] |= 1ULL << i;
     }
 
     int pawnIndex = player == WHITE ? WHITE_PAWNS : BLACK_PAWNS;
@@ -514,27 +515,9 @@ std::vector<BitMove> Chess::generateAllMovesFromState(std::string &state, int pl
 
     generateKnightMoves(moves, state);
     generateKingMoves(moves, state);
-
-    generateBishopMoves(
-        moves,
-        _bitboards[WHITE_BISHOPS + pawnIndex],
-        _bitboards[OCCUPANCY].getData(),
-        _bitboards[friendlyIndex].getData()
-    );
-
-    generateRookMoves(
-        moves,
-        _bitboards[WHITE_ROOKS + pawnIndex],
-        _bitboards[OCCUPANCY].getData(),
-        _bitboards[friendlyIndex].getData()
-    );
-
-    generateQueenMoves(
-        moves,
-        _bitboards[WHITE_QUEENS + pawnIndex],
-        _bitboards[OCCUPANCY].getData(),
-        _bitboards[friendlyIndex].getData()
-    );
+    generateBishopMoves(moves, _bitboards[WHITE_BISHOPS + pawnIndex], _bitboards[OCCUPANCY].getData(), _bitboards[friendlyIndex].getData());
+    generateRookMoves(moves, _bitboards[WHITE_ROOKS + pawnIndex], _bitboards[OCCUPANCY].getData(), _bitboards[friendlyIndex].getData());
+    generateQueenMoves(moves, _bitboards[WHITE_QUEENS + pawnIndex], _bitboards[OCCUPANCY].getData(), _bitboards[friendlyIndex].getData());
 
     for (int index = 0; index < 64; index++) {
 
@@ -546,6 +529,12 @@ std::vector<BitMove> Chess::generateAllMovesFromState(std::string &state, int pl
             generatePawnMoves(moves, state, row, col, player);
         }
     }
+
+    std::sort(moves.begin(), moves.end(), [&](const BitMove& a, const BitMove& b) {
+        bool aCapture = state[a.to] != '0';
+        bool bCapture = state[b.to] != '0';
+        return aCapture > bCapture;
+    });
 
     return moves;
 }
